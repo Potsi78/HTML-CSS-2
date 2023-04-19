@@ -1,0 +1,65 @@
+body { 
+    background-color: black;
+    opacity: 0.5;
+}
+
+h1 { 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.0em;
+    color: yellow;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    border-style: solid;
+    border-color: yellowgreen; 
+    border-radius: 5px; 
+    border-width: 5px; 
+    padding: 10px; 
+    color: yellow;
+    margin: 20xp;
+}
+
+h2  {
+    color:yellow;
+}
+
+ul {
+    color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+}
+
+a   {
+    color:lightgreen;
+}
+
+h3 {
+    color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+}
+
+div.gallery {
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        color: white;
+      }
